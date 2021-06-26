@@ -116,7 +116,7 @@ We empower the world to innovate faster, smarter, and easier and form meaningful
     <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
       <div class="team-thumb">
         <div class="image-holder">
-          <img src="tj/images/team/team-1.jpg" class="img-responsive img-circle" alt="Mary">
+          <img src="tj/images/team/team-1.jpg" class="img-responsive img-circle" alt="Priyanshi">
         </div>
         <h2 class="heading">Priyanshi</h2>
         <p class="description">B.Tech Student</p>
@@ -126,7 +126,7 @@ We empower the world to innovate faster, smarter, and easier and form meaningful
     <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
       <div class="team-thumb">
         <div class="image-holder">
-          <img src="tj/images/team/team-2.jpg" class="img-responsive img-circle" alt="Jack">
+          <img src="tj/images/team/team-2.jpg" class="img-responsive img-circle" alt="Sakshi">
         </div>
         <h2 class="heading">Sakshi</h2>
         <p class="description">B.Tech Student</p>
@@ -136,7 +136,7 @@ We empower the world to innovate faster, smarter, and easier and form meaningful
     <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
       <div class="team-thumb">
         <div class="image-holder">
-          <img src="tj/images/team/team-3.jpg" class="img-responsive img-circle" alt="Linda">
+          <img src="tj/images/team/team-3.jpg" class="img-responsive img-circle" alt="Tanmay">
         </div>
         <h2 class="heading">Tanmay</h2>
         <p class="description">B.Tech Student</p>
@@ -146,7 +146,7 @@ We empower the world to innovate faster, smarter, and easier and form meaningful
     <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
       <div class="team-thumb">
         <div class="image-holder">
-          <img src="tj/images/team/team-4.jpg" class="img-responsive img-circle" alt="Sandy">
+          <img src="tj/images/team/team-4.jpg" class="img-responsive img-circle" alt="Tarv">
         </div>
         <h2 class="heading">Tarv</h2>
         <p class="description">B.Tech Student</p>
@@ -156,7 +156,7 @@ We empower the world to innovate faster, smarter, and easier and form meaningful
     <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
       <div class="team-thumb">
         <div class="image-holder">
-          <img src="tj/images/team/team-5.jpg" class="img-responsive img-circle" alt="Lukia">
+          <img src="tj/images/team/team-5.jpg" class="img-responsive img-circle" alt="Vikash">
         </div>
         <h2 class="heading">Vikash</h2>
         <p class="description">B.Tech Student</p>
