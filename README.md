@@ -27,7 +27,7 @@ We are enabling individuals. Funding is a powerful tool to empower individuals a
 
 ➢ HTML, CSS, JavaScript, PHP, JQuery, SQL
 
-# Team Memebers 
+# Team Members 
 
 <a href="https://github.com/VikashSingh01c" target="_blank">Vikash, </a>
 <a href="https://github.com/TarvGupta" target="_blank">Tarv, </a>
