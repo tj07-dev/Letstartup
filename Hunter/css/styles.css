@@ -1,0 +1,670 @@
+
+html,
+body {
+    height: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+h1 {
+    color: #ff9000;
+}
+
+.grey {
+    background-color: #CCCCCC;
+    color: white;
+}
+
+.grey:hover {
+    background-color: #999999;
+    color: white;
+}
+
+/* [Login page] cover */
+.text-blue{
+    color: blue;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger; */
+}
+#cover {
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+#signup {
+    background: url('') center center no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    width: 100%;
+    
+}
+
+#signup-form {
+    text-align: center;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+/* --------------Profile card---------------------- */
+
+
+.card-profile {
+  width: 230px;
+  height: 330px;
+  margin: 50px auto;
+  background-color: #e6e5e1;
+  border-radius: 0;
+  border: 0;
+}
+.card-profile .card-img-top {
+  border-radius: 0;
+  
+}
+.card-img-profile {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: -45px;
+  margin-bottom: 35px;
+  border: 3px solid #e6e5e1;
+}
+
+.edit-profile {
+    position: absolute;
+    right: 10px;
+    top: 110px;
+}
+
+.card-img-profile {
+    transition: transform .2s;
+}
+
+.card-img-profile-k:hover {
+    transform: scale(1.05);
+}
+
+.card-profile .card-title {
+  margin-bottom: 50px;
+}
+.card-profile .card-title small {
+  display: block;
+  font-size: .6em;
+  margin-top: .2em;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+/* --------------Custom Radio Button---------------------- */
+.btn-r {
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  background: antiquewhite;
+  text-align: center;
+  transition: background 600ms ease, color 600ms ease;
+}
+
+input[type="radio"].toggle {
+  display: none;
+}
+input[type="radio"].toggle + label {
+  cursor: pointer;
+  min-width: 60px;
+  z-index: 2;
+}
+input[type="radio"].toggle + label:hover {
+  background: yellow;
+  color:black;
+}
+input[type="radio"].toggle + label:after {
+  background: #94a3ef;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: left 200ms cubic-bezier(0.77, 0, 0.175, 1);
+  width: 100%;
+  z-index: -2;
+}
+input[type="radio"].toggle.toggle-left + label {
+  border-right: 0;
+}
+input[type="radio"].toggle.toggle-left + label:after {
+  left: 100%;
+}
+input[type="radio"].toggle.toggle-right + label {
+  margin-left: -5px;
+  z-index: 1;
+}
+input[type="radio"].toggle.toggle-right + label:after {
+  left: -100%;
+}
+input[type="radio"].toggle:checked + label {
+  cursor: default;
+  color: #fff;
+  transition: color 200ms;
+  z-index: 11;
+}
+input[type="radio"].toggle:checked + label:after {
+  left: 0;
+}
+
+/*------------ Profile Page --------------*/
+
+#user-section {
+    background-color: #fdebeba8;
+    padding: 0px;
+    margin: 40px 0px 60px 0px;
+    padding-bottom: 20px;
+}
+
+.cover-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -65px;
+    margin-bottom: 0px;
+    border: 3px solid #e6e5e1;
+}
+
+#admin-badge {
+    width: 50px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -50px;
+}
+
+.profile-bio {
+    text-align: justify;
+    padding: 5%;
+}
+
+
+/*--------------- User's Forum cards ---------------*/
+
+.card-inverse-user-forums .card-img-overlay {
+  overflow: hidden;
+  background-color: rgba(51, 51, 51, 0.85);
+  border-color: rgba(51, 51, 51, 0.85);
+}
+
+.card-inverse-user-forums:hover .card-img-overlay:hover {
+  background-color: rgba(73, 148, 214, 0.85);
+}
+
+.card-inverse-user-pollvotes .card-img-overlay {
+  overflow: hidden;
+  background-color: rgba(51, 51, 51, 0.85);
+  border-color: rgba(51, 51, 51, 0.85);
+}
+
+.card-inverse-user-pollvotes:hover .card-img-overlay:hover {
+  background-color: rgba(255, 138, 20, 0.85);
+}
+
+
+
+.card {
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-blogs .card-img-top {
+    height: 6rem;
+    object-fit: cover;
+} 
+
+
+
+
+
+
+/*------------------------ Custom Checkbox ----------------------------------------*/
+
+
+.checkbox-animated {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.checkbox-animated input[type=checkbox] {
+  display: none;
+}
+.checkbox-animated input[type=checkbox]:disabled ~ label .box {
+  border-color: #777;
+  background-color: #E6E6E6;
+}
+.checkbox-animated input[type=checkbox]:disabled ~ label .check {
+  border-color: #777;
+}
+.checkbox-animated input[type=checkbox]:checked ~ label .box {
+  opacity: 0;
+  -webkit-transform: scale(0) rotate(-180deg);
+  -moz-transform: scale(0) rotate(-180deg);
+  transform: scale(0) rotate(-180deg);
+}
+.checkbox-animated input[type=checkbox]:checked ~ label .check {
+  opacity: 1;
+  -webkit-transform: scale(1) rotate(45deg);
+  -moz-transform: scale(1) rotate(45deg);
+  transform: scale(1) rotate(45deg);
+}
+.checkbox-animated label {
+  cursor: pointer;
+  padding-left: 28px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.checkbox-animated label span {
+  display: block;
+  position: absolute;
+  left: 0;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.checkbox-animated label .box {
+  border: 2px solid #000;
+  height: 20px;
+  width: 20px;
+  z-index: 888;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.checkbox-animated label .check {
+  top: -7px;
+  left: 6px;
+  width: 12px;
+  height: 24px;
+  border: 2px solid #BADA55;
+  border-top: none;
+  border-left: none;
+  opacity: 0;
+  z-index: 888;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-transition-delay: 0.3s;
+  -moz-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+* {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+
+.creater-icon {
+    font-size: 100px;
+    color: black;
+    padding: 20px;
+    border-radius: 50%;
+    border: 3px solid black;
+    transition: transform .2s;
+}
+
+.creater-icon:hover {
+    transform: scale(1.07);
+}
+
+
+
+
+
+
+.blog-cover {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.blog-author {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    right: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -65px;
+    margin-bottom: 0px;
+    transition: transform .2s;
+}
+
+.blog-author:hover {
+    transform: scale(1.07);
+}
+
+
+.event-cover {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/*-------------------- Custom Radio Buttons -----------------------*/
+
+.funkyradio label {
+    min-width: 400px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #D1D3D4;
+    font-weight: normal;
+}
+.funkyradio input[type="radio"]:empty, .funkyradio input[type="checkbox"]:empty {
+    display: none;
+}
+.funkyradio input[type="radio"]:empty ~ label, .funkyradio input[type="checkbox"]:empty ~ label {
+    position: relative;
+    line-height: 2.5em;
+    text-indent: 3.25em;
+    margin-top: 2em;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.funkyradio input[type="radio"]:empty ~ label:before, .funkyradio input[type="checkbox"]:empty ~ label:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content:'';
+    width: 2.5em;
+    background: #D1D3D4;
+    border-radius: 3px 0 0 3px;
+}
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label:before, .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label:before {
+    text-indent: .9em;
+    color: #C2C2C2;
+}
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label, .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label {
+    color: #888;
+}
+.funkyradio input[type="radio"]:checked ~ label:before, .funkyradio input[type="checkbox"]:checked ~ label:before {
+    content:'\1f5f8';
+    text-indent: .9em;
+    color: #333;
+    background-color: #ccc;
+}
+.funkyradio input[type="radio"]:checked ~ label, .funkyradio input[type="checkbox"]:checked ~ label {
+    color: #777;
+}
+.funkyradio input[type="radio"]:focus ~ label:before, .funkyradio input[type="checkbox"]:focus ~ label:before {
+    box-shadow: 0 0 0 3px #999;
+}
+.funkyradio-default input[type="radio"]:checked ~ label:before, .funkyradio-default input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #99ff99;
+}
+.funkyradio-primary input[type="radio"]:checked ~ label:before, .funkyradio-primary input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #337ab7;
+}
+.funkyradio-success input[type="radio"]:checked ~ label:before, .funkyradio-success input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #5cb85c;
+}
+.funkyradio-danger input[type="radio"]:checked ~ label:before, .funkyradio-danger input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #d9534f;
+}
+.funkyradio-warning input[type="radio"]:checked ~ label:before, .funkyradio-warning input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #f0ad4e;
+}
+.funkyradio-info input[type="radio"]:checked ~ label:before, .funkyradio-info input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #5bc0de;
+}
+
+/*------------------------*/
+
+h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0; }
+
+
+
+.voter-avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform .2s;
+}
+
+.voter-avatar:hover {
+    transform: scale(1.07);
+}
+
+.empty-img {
+    width: 80px;
+    height: 80px;
+}
+
+.profile-empty-img {
+    height: 100px;
+}
+
+
+.signup-left {
+    top: 25%;
+}
+
+.social-icon {
+    background: #B0B0B0;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.social-icon:hover {
+    background: #6B6B6B;
+}
+
+.social-icon:active {
+    background: #ff9000;
+}
+
+.login-icons {
+    right: 25%;
+    left: 25%;
+}
+
+#card-admin-badge {
+    width: 40px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -40px;
+}
+
+.navbar .fa {
+    color: darkred
+}
+
+.navbar .fa:hover {
+    color: grey;
+}
+
+.card-user-cover {
+    height: 100px;
+    object-fit: cover;
+}
+
+.btn-warning {
+    background-color: #ff9000;
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #FFA13D;
+}
+
+.card-profile .fa {
+    color: grey;
+}
+
+
+.card-profile .fa:hover {
+    color: #ff9000;
+}
+.post-s-l{
+    /* box-shadow: inset 1px 1px 20px 4px #ff9000; */
+    font-kerning: auto;
+
+}
+.post-s-l-f{
+    font-family: 'FontAwesome';
+    color:black;
+}
+
+.prof-card-if{
+background-color:yellow;
+}
+.prof-card-if:hover{
+    /* background-color: #d2d3d485; */
+    background: repeating-linear-gradient(45deg, #ddd8f1, #fbfbfb 161px);
+ }
+
+
+@media screen and (min-width:332px)
+{
+    .prof-card-if{
+        position:fixed;
+
+    }
+
+}
+@media screen and (min-width:990px)
+{
+    .prof-card-if{
+        position:fixed;
+    }
+}
+
+#vanillatoasts-container{width:320px;}
+.vanillatoasts-toast{position:relative;padding:20px 17px;margin-top:18px;border-radius:10px;background:#caffd19e;cursor:pointer;box-shadow:1px 1px 3px rgba(0,0,0,.1);animation-duration:.3s;animation-name:VanillaToasts;animation-timing-function:cubic-bezier(.215,.61,.355,1)} 
+#vanillatoasts-container p,h4{margin:3px 0!important}
+.vanillatoasts-title{font-weight:700;font-size:15px;margin-bottom:10px} 
+.vanillatoasts-text{font-size:14px;color:#777} 
+.vanillatoasts-icon{border: 4px solid #d2d3d4;position:absolute;top:5px;left:-40px;width:50px;height:50px;border-radius:100%;box-shadow:1px 1px 3px rgba(0,0,0,.1);background:#fff} 
+.vanillatoasts-toast a,.vanillatoasts-toast a:hover{color:#549edb!important;text-decoration:none!important}  
+.vanillatoasts-success{border-bottom:2px solid #c3c3c3} 
+
+@keyframes VanillaToasts{from{transform:translate3d(400px,0,0);opacity:0} 
+to{transform:translate3d(0,0,0);opacity:1} 
+} 
+@keyframes VanillaToastsFadeOut{from{transform:translate3d(0,0,0);opacity:1} 
+to{transform:translate3d(400px,0,0);opacity:0} 
+} 
+.portf-img-u{
+    max-height: 240px;
+    border-radius: 83px;
+    box-shadow: 6px 7px 20px 4px #04a5f5;
+}
+
+.home-divse-co-all{
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../img/lololo.jpg) fixed center center;
+    background-size: cover;
+    /* padding: 200px 0 60px 0; */
+}
+.searchbar{
+    /* margin-bottom: auto;
+    margin-top: auto;
+    height: 60px; */
+    background-color: #f18126;
+    border-radius: 30px;
+    /* padding: 10px; */
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 180px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+    
