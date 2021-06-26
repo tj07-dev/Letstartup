@@ -29,7 +29,7 @@ We are enabling individuals. Funding is a powerful tool to empower individuals a
 
 # Team Members 
 
-<a href="https://github.com/VikashSingh01c" target="_blank">Vikash, </a>
+<a href="https://github.com/VikashSingh01c" target="_blank">Vikash Singh, </a>
 <a href="https://github.com/TarvGupta" target="_blank">Tarv, </a>
 <a href="https://github.com/tj07-dev" target="_blank">Tanmay, </a>
 <a href="https://github.com/Priyanshii16" target="_blank">Priyanshi, </a>
