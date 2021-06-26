@@ -33,7 +33,7 @@ We are enabling individuals. Funding is a powerful tool to empower individuals a
 <a href="https://github.com/TarvGupta" target="_blank">Tarv, </a>
 <a href="https://github.com/tj07-dev" target="_blank">Tanmay, </a>
 <a href="https://github.com/Priyanshii16" target="_blank">Priyanshi, </a>
-<a href="https://github.com/SakshiGoyal199c" target="_blank">Sakshi. </a>
+<a href="https://github.com/SakshiGoyal199" target="_blank">Sakshi. </a>
 
 
  
