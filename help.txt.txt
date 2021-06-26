@@ -1,0 +1,22 @@
+
+## LetsStartup : Fundraising And Idea Sharing System
+
+   	Requirement: 
+		1) XAMPP - XAMPP Installers and Downloads for Apache Friends
+		2) Web Browser ( Recommended Chrome)
+
+	Step 1 : Download Install XAMPP
+		*Note: Give Admin Rights to Installer
+
+	Step 2 : Extract Zip file of Project 
+		*Note: You can use 7zip or WinRAR for Extraction
+
+	Step 3 : Copy all file inside LetsStartup folder to   C:/XAMPP/htdocs  
+
+	Step 4 : Now Start XAMPP control Panel and Start APACHE and MySQL server
+
+	Step 5 : Import Database ( saved in C:/XAMPP/htdocs/DB/letstartup.sql ) in PhpMyAdmin 
+
+	Step 6 : Now open Localhost.
+
+	Step 7 : Congratulations, Project runs Successfully.
