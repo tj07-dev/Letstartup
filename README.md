@@ -1,4 +1,6 @@
+
 # Letstartup - Fundraising and Idea Sharing System
+
 
 ![screen-gif](./letstarup.gif)
 
@@ -24,6 +26,14 @@ We are enabling individuals. Funding is a powerful tool to empower individuals a
 # Technology Used :
 
 ➢ HTML, CSS, JavaScript, PHP, JQuery, SQL
+
+# Team Memebers 
+
+<a href="https://github.com/VikashSingh01c" target="_blank">Vikash, </a>
+<a href="https://github.com/TarvGupta" target="_blank">Tarv, </a>
+<a href="https://github.com/tj07-dev" target="_blank">Tanmay, </a>
+<a href="https://github.com/Priyanshii16" target="_blank">Priyanshi, </a>
+<a href="https://github.com/SakshiGoyal199c" target="_blank">Sakshi. </a>
 
 
  
